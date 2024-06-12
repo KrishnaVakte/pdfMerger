@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(282deg,#bfcdd6 0%,#18a6ff85);
+}
+
+.box{
+    background: rgb(236, 233, 233);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.upload-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.uploadlabel{
+    display: flex;
+    flex-direction: column;
+    background: rgb(216, 216, 221);
+    justify-content: center;
+    align-items: center;
+    border: 4px dashed #009dff ;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px;
+    width: 300px;
+}
+
+.uploadlabel p{
+    color: #18a7ff;
+    font-size: 1.3rem;
+    font-family: cursive;
+}
+
+.btn{
+    width: 100%;
+    margin:0 auto;
+}
+.submit{
+    border: 2px solid rgb(146, 146, 237) ;
+    border-radius:  7px ;
+    padding: 3px 10px;
+    background: rgb(0, 174, 255);
+}
+.uploadlabel span{
+    font-size: 50px;
+    color:#18a7ff;
+}
+
+.uploaded{
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+    font-weight:500;
+    color: gray;
+}
+
+.showfilebox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: gray 0px 0px 0px 1px, rgb(195, 178, 178) 0px 0px 0px 1px inset;
+    border-radius: 5px;
+    margin: 10px 0;
+    min-width: 300px;
+}
+
+.left{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.left .filetype{
+    text-transform: uppercase;
+    background: #009dff;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.right span {
+    font-size: 25px;
+    background: #009dff;
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+}
